@@ -1,0 +1,10 @@
+<mjml>
+  <mj-head>
+      <mj-all font-family="Arial, Helvetica, sans" />
+      <mj-class name="orange" color="rgb(255, 141, 83)"/>
+      <mj-class name="size" font-size="22px"/>
+  </mj-head>
+  <mj-body>
+      
+  </mj-body>
+</mjml>

@@ -1,0 +1,18 @@
+{
+  "name": "promotional-email",
+  "version": "1.0.0",
+  "description": "An email created from an email using mjml framework",
+  "scripts": {
+    "mjml": "mjml src/index.mjml -o dist/"
+  },
+  "keywords": [
+    "mjml",
+    "email",
+    "marketing"
+  ],
+  "author": "jhabari guidry",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.6.2"
+  }
+}
