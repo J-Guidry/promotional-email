@@ -1,10 +1,23 @@
 <mjml>
   <mj-head>
+    <mj-attributes>
       <mj-all font-family="Arial, Helvetica, sans" />
       <mj-class name="orange" color="rgb(255, 141, 83)"/>
-      <mj-class name="size" font-size="22px"/>
+      <mj-class 
+        name="header" font-size="40px" font-weight="bold"
+        line-height="130%" padding="0 15px 8px" color="rgb(189, 58, 0)"
+      />
+    </mj-attributes>
+
   </mj-head>
-  <mj-body>
-      
+  <mj-body background-color="#ffffff">
+      <mj-section background-color="#f7f7f7" full-width="full-width">
+        <mj-column>
+          <mj-image src="./images/header.png" alt="" />
+            <mj-text mj-class="header">
+              Mockplus Black Friday Sale 2018! 40% Off All Plans!
+            </mj-text>
+        </mj-column>
+      </mj-section>
   </mj-body>
 </mjml>
