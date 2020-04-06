@@ -32,7 +32,7 @@
               </a>
             </h3>
           </mj-text>
-          <mj-text align="center" font-size="16px">
+          <mj-text align="center" font-size="16px" line-height="22px">
             The lowest price of the year! 
             <br>
             Subscribe to any of our plans and get a <span style="color:rgb(189,58,0)">40% discount</span>. 
@@ -42,6 +42,20 @@
           <mj-button mj-class="button">
             SHOPPING NOW
           </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image src="./images/price-table.png" alt="" />
+           <mj-divider border-width="2px" border-style="solid" border-color="#bd3a00" />
+           <mj-image src="./images/price.png" alt="" />
+           <mj-text line-height="20px">
+             Icons8 license includes <a>85,000+ icons</a> in several formats, photos that designed to work together and <a>music tracks</a> for videos. 
+             Use promo code: <span style="color:#bd3a00; font-weight:bold">blkfrd2018</span>
+           </mj-text>
+           <mj-button mj-class="button" font-weight="bold">
+             GET YOUR ANNUAL ACCESS
+           </mj-button>
         </mj-column>
       </mj-section>
   </mj-body>
