@@ -7,6 +7,8 @@
         name="header" font-size="40px" font-weight="bold"
         line-height="130%" padding="0 15px 8px" color="rgb(189, 58, 0)"
       />
+      <mj-class name="deal" text-decoration="underline"/>
+      <mj-class name="button" background-color="rgb(189,58,0)" font-size="18px"/>
     </mj-attributes>
 
   </mj-head>
@@ -17,6 +19,29 @@
             <mj-text mj-class="header">
               Mockplus Black Friday Sale 2018! 40% Off All Plans!
             </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-image src="./images/table.png" alt="" />
+          <mj-text align="center" font-size="19px">
+            <h3>
+              <a style="color:#00add8;text-decoration:underline;">
+              <span style="color:rgb(189, 58, 0)">Black Friday Deal - 40% Off on All Mockplus Plans!</span>
+              </a>
+            </h3>
+          </mj-text>
+          <mj-text align="center" font-size="16px">
+            The lowest price of the year! 
+            <br>
+            Subscribe to any of our plans and get a <span style="color:rgb(189,58,0)">40% discount</span>. 
+            <br>
+            Hurry up for the limited time offer!  
+          </mj-text>  
+          <mj-button mj-class="button">
+            SHOPPING NOW
+          </mj-button>
         </mj-column>
       </mj-section>
   </mj-body>
