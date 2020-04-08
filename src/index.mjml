@@ -4,13 +4,12 @@
       <mj-all font-family="Arial, Helvetica, sans" />
       <mj-class name="orange" color="rgb(255, 141, 83)"/>
       <mj-class 
-        name="header" font-size="40px" font-weight="bold"
+        name="header" font-size="30px" font-weight="bold" align="center"
         line-height="130%" padding="0 15px 8px" color="rgb(189, 58, 0)"
       />
       <mj-class name="deal" text-decoration="underline"/>
-      <mj-class name="button" background-color="rgb(189,58,0)" font-size="18px"/>
+      <mj-class name="button" background-color="rgb(189,58,0)" font-size="18px" font-weight="bold"/>
     </mj-attributes>
-
   </mj-head>
   <mj-body background-color="#ffffff">
       <mj-section background-color="#f7f7f7" full-width="full-width">
@@ -32,7 +31,7 @@
               </a>
             </h3>
           </mj-text>
-          <mj-text align="center" font-size="16px" line-height="22px">
+          <mj-text align="center" font-size="16px" line-height="22px" font-family="Helvetica">
             The lowest price of the year! 
             <br>
             Subscribe to any of our plans and get a <span style="color:rgb(189,58,0)">40% discount</span>. 
@@ -49,13 +48,59 @@
           <mj-image src="./images/price-table.png" alt="" />
            <mj-divider border-width="2px" border-style="solid" border-color="#bd3a00" />
            <mj-image src="./images/price.png" alt="" />
-           <mj-text line-height="20px">
+           <mj-text line-height="20px" font-family="Helvetica">
              Icons8 license includes <a>85,000+ icons</a> in several formats, photos that designed to work together and <a>music tracks</a> for videos. 
              Use promo code: <span style="color:#bd3a00; font-weight:bold">blkfrd2018</span>
            </mj-text>
-           <mj-button mj-class="button" font-weight="bold">
+           <mj-button mj-class="button">
              GET YOUR ANNUAL ACCESS
            </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image src="./images/template.png" alt="" />
+          <mj-text line-height="20px" font-family="Helvetica">
+            Imperio is a stunning pack of 100 presentation templates for Powerpoint, Keynote & Google Slides. 
+            It includes more than 50K total slides that will help you to save time and improve your presentations. 
+            This is a Limited Time Offer, download your copy now because the offer expires soon
+          </mj-text>     
+          <mj-button mj-class="button">
+            DOWNLOAD NOW
+          </mj-button>     
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#333333">
+        <mj-column>
+          <mj-social font-size="12px" icon-size="25px" mode="horizontal">
+            <mj-social-element name="" src="./images/fb-icon.png">
+              Facebook
+            </mj-social-element>
+            <mj-social-element name="" src="./images/twitter-icon.png">
+              Twitter
+            </mj-social-element>
+            <mj-social-element  name="indeed" src="./images/indeed-icon.png">
+              Indeed
+            </mj-social-element>
+            <mj-social-element  name="mailchimp" src="./images/mail-icon.png">
+              Mailchip
+            </mj-social-element>
+          </mj-social>
+          <mj-divider border-width="2px" border-style="solid" border-color="#505050" />
+          <mj-text align="center" color="#ffffff">
+            Copyright © *2018* *Jongde Software LLC*, All rights reserved.
+            <br>
+            </mj-text>
+            <mj-text align="center" color="#ffffff">
+              <a style="color:#ffffff; text-decoration:underline;">www.mockplus.com</a>
+            </mj-text>
+            <mj-spacer height="10px" />
+            <mj-text align="center" color="#ffffff">         
+              Want to change how you receive these emails?
+              You can <a style="color:#ffffff; text-decoration:underline;">update your preferences</a> or <a style="color:#ffffff; text-decoration:underline;">unsubscribe from this list</a>              
+            </mj-text>
+
+          </mj-text>
         </mj-column>
       </mj-section>
   </mj-body>
